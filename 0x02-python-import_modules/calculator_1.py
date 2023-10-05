@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-def add(n1, n2):
+def add(a, b):
     """My addition function
 
     Args:
-        n1: first integer
-        n2: second integer
+        a: first integer
+        b: second integer
 
     Returns:
-        The return value. n1 + n2
+        The return value. a + b
     """
-    return (n1 + n2)
+    return (a + b)
 
 
 def sub(a, b):
@@ -25,17 +25,17 @@ def sub(a, b):
     return (a - b)
 
 
-def mul(num1, num2):
+def mul(a, b):
     """My multiplication function
 
     Args:
-        num1: first integer
-        num2: second integer
+        a: first integer
+        b: second integer
 
     Returns:
-        The return value. num1 * num2
+        The return value. a * b
     """
-    return (num1 * num2)
+    return (a * b)
 
 
 def div(a, b):
