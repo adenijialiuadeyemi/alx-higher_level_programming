@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Define a class Square for task4 """
+"""Define a Square class for task 5"""
 
 
 class Square:
@@ -29,3 +29,13 @@ class Square:
     def area(self):
         """Method to that returns the area based on the size"""
         return (self.__size ** 2)
+
+    def my_print(self):
+        """Method that prints in stdout the square with the character #"""
+        if self.__size == 0:
+            print("")
+        else:
+            for m in range(self.size):
+                for n in range(self.size):
+                    print("#", end="")
+                print("")
