@@ -1,16 +1,17 @@
 #!/usr/bin/python3
 """
-    Module containing functions to search for solutions to N-queens problem.
+    Module containing functions to search for solutions to 
+    N-queens problem.
 """
 
 
 def all_possible(n=4):
-    """ Function to find all possible solutions by placing the first queen on
-        the first row, with different column positions starting from 2nd
-        column to 2nd to last column.
+    """ Function to find all possible solutions by placing the 
+    first queen on the first row, with different column 
+    positions starting from 2nd column to 2nd to last column.
         Args:
-            n (int): The size of the chess board, but also the number of queens
-                to place on the board.
+            n (int): The size of the chess board, but also the 
+            number of queens to place on the board.
     """
 
     for i in range(n):
